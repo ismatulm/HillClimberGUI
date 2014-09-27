@@ -27,7 +27,6 @@ public class HillClimberGUI {
         HillClimberGUI obj1 = new HillClimberGUI();
         final int MIN_RANGE = 10;
         final int MAX_RANGE = 25;
-        //double desired_function_value = 10;//Desired value 
         double initial_point_1 = Math.random() * (MAX_RANGE) - MIN_RANGE;//this returns the value between -10.0 and 15.0 inclusive
         double initial_point_2 = Math.random() * (MAX_RANGE) - MIN_RANGE;//this returns the value between -10.0 and 15.0 inclusive
         double initial_point_3 = Math.random() * (MAX_RANGE) - MIN_RANGE;//this returns the value between -10.0 and 15.0 inclusive
