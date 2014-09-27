@@ -12,7 +12,7 @@ public class HillClimberGUI {
     public static void main(String[] args) {
         HillClimberGUI obj = new HillClimberGUI();
 
-        obj.calculatioMethod();
+        obj.localOptimum();
     }
     /*
      *Miminize f(v) = f(x1, x2, x3) = x1^2 + x2^2 + x3^2 for -10 <= x1, x2, x3 <= +15.
@@ -22,7 +22,7 @@ public class HillClimberGUI {
      *Output: t, v_c, f(v_c)
      */
 
-    public void calculatioMethod() {
+    public void localOptimum() {
         Scanner sc = new Scanner(System.in);
         HillClimberGUI obj1 = new HillClimberGUI();
         final int MIN_RANGE = 10;
